@@ -1,6 +1,6 @@
 body {
     color: #999;
-    background-image: url(../images/plans-background.jpg);
+    background-image: url(../images/RECENT.jpg);
     font-family: 'Roboto', sans-serif;
     background-size: cover;
 }
@@ -15,7 +15,8 @@ body {
     border-color: #00cb82;
 }
 
-.form-control, .btn {
+.form-control,
+.btn {
     border-radius: 3px;
 }
 
@@ -32,7 +33,7 @@ body {
 .form-header h2 {
     font-size: 34px;
     font-weight: bold;
-    margin:0 0 10px ;
+    margin: 0 0 10px;
     font-family: 'Pacifico', sans-serif;
 }
 
@@ -41,4 +42,49 @@ body {
     font-size: 17px;
     line-height: normal;
     font-family: 'Courgette', sans-serif;
+}
+
+.signin-form {
+    width: 390px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.signin-form form {
+    color: #999;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: #f0f0f0f0;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.signin-form .form-group {
+    margin-bottom: 20px;
+}
+
+.signin-form label {
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.signin-form .btn {
+    font-size: 16px;
+    font-weight: bold;
+    background: #00cb82;
+    border: none;
+    min-width: 200px;
+}
+
+.signin-form .btn:hover, .signin-form .btn:focus {
+    background: #00b073 !important;
+    outline: none;
+}
+
+.signin-form a {
+    color: #00cb82;
+}
+
+.signin-form a:hover {
+    text-decoration: underline;
 }
