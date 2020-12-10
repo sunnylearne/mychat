@@ -15,7 +15,18 @@
 
             <div class="form-group">
                 <label for="">Email</label>
-                <input class="form-control" type="email" name="email" id="" placeholder="someone@site.com">
+                <input class="form-control" type="email" name="email" id="" placeholder="someone@site.com" autocomplete="0ff" required>
+            </div>
+
+            <div class="form-group">
+                <label for="">Password</label>
+                <input class="form-control" type="password" name="password" id="" placeholder="Password" autocomplete="0ff" required>
+            </div>
+
+            <div class="small" >Forget password? <a href="forget_pass.php">Click here</a> </div><br>
+
+            <div class="form-group">
+                 <button type="submit" class="btn btn-primary"></button>
             </div>
         </form>
     </div>
