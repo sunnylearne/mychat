@@ -21,7 +21,7 @@
 
             <div class="form-group">
                 <label for="">Password</label>
-                <input class="form-control" type="password" name="password" id="" placeholder="Password" autocomplete="0ff" required>
+                <input class="form-control" type="password" name="pass" id="" placeholder="Password" autocomplete="0ff" required>
             </div>
 
             <div class="small" >Forget password? <a href="forget_pass.php">Click here</a> </div><br>
@@ -31,7 +31,7 @@
             </div>
         </form>
 
-        <div class="text-center small" style="color: #67428B";>Don't have an account <a href="sign_up.php">Create One</a></div>
+        <div class="text-center small" style="color: #67428B";>Don't have an account <a href="signup.php">Create One</a></div>
     </div>
 </body>
 </html>
