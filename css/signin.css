@@ -1,0 +1,44 @@
+body {
+    color: #999;
+    background-image: url(../images/plans-background.jpg);
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+}
+
+.form-control {
+    min-height: 41px;
+    box-shadow: none;
+    border-color: #e1e1e1;
+}
+
+.form-control:focus {
+    border-color: #00cb82;
+}
+
+.form-control, .btn {
+    border-radius: 3px;
+}
+
+.form-header {
+    margin: -30px -30px 20px;
+    padding: 30px 30px 10px;
+    text-align: center;
+    background: #00cb82;
+    border-bottom: 1px solid #eee;
+    color: #fff;
+
+}
+
+.form-header h2 {
+    font-size: 34px;
+    font-weight: bold;
+    margin:0 0 10px ;
+    font-family: 'Pacifico', sans-serif;
+}
+
+.form-header p {
+    margin: 20px 0 15px;
+    font-size: 17px;
+    line-height: normal;
+    font-family: 'Courgette', sans-serif;
+}
