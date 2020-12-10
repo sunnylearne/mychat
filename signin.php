@@ -26,9 +26,11 @@
             <div class="small" >Forget password? <a href="forget_pass.php">Click here</a> </div><br>
 
             <div class="form-group">
-                 <button type="submit" class="btn btn-primary"></button>
+                 <button type="submit" class="btn btn-primary btn-block btn-lg" name="sign_in">Sign in</button>
             </div>
         </form>
+
+        <div class="text-center small" style="color: #67428B";>Don't have an account <a href="sign_up.php">Create One</a></div>
     </div>
 </body>
 </html>
